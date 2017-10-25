@@ -1,13 +1,13 @@
 # 授权接口
 ## 开发前必读
-###授权信息获取方式
+### 授权信息获取方式
 请扫码申请试用，获取企业appId，secrett,AES加密Key等信息。企业授权信息需妥善保管，防止泄露。
 <div align="right">
 <img src="http://wx2.sinaimg.cn/mw690/8105c641gy1fkc2i685wzj20730730g0.jpg" " height="175" width="161" >
 </div>
-###示例代码
+### 示例代码
 [Java Demo](https://github.com/lucunshan/linkerp-demo)   [.Net Demo](https://github.com/lucunshan/linkerp4Net-demo)
-###API通用约定
+### API通用约定
 1. 访问域名：https://yunzhijia.com
 2. 接口调用URL：https://域名/接口地址?accessToken=xxxxx，accessToken是访问接口的令牌，每个令牌都只能访问对该令牌授权过的接口
 3. 调用方式：Post JSON 
@@ -78,7 +78,7 @@ postman.setEnvironmentVariable("shenpidata",JSON.stringify(data));
 {{shenpidata}}
 ```
 
-##1、获取团队accessToken,该接口为企业自建应用获取团队accessToken
+## 1、获取团队accessToken,该接口为企业自建应用获取团队accessToken
 - url: /gateway/oauth2/token/getTeamAccessToken
 - 参数：
 ```
